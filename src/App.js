@@ -1,16 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
+import navItems from "./Nav/navItems";
+import Nav from "./Nav";
 
 function App() {
+  const Routes = () => {
+    return navItems.map(({ path, component }) => (
+      <Route exact key={path} path={path}>
+        {component}
+      </Route>
+    ));
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          mdx react
-        </p>
-      </header>
+      <Router>
+        <Nav />
+        <Switch>
+            <Routes />
+        </Switch>
+      </Router>
     </div>
   );
 }
