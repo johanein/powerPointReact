@@ -1,8 +1,11 @@
 import React from "react";
 import "./App.css";
 import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
+import { Provider } from 'react-redux'
 import navItems from "./Nav/navItems";
 import Nav from "./Nav";
+import store from './Redux/store'
+
 
 function App() {
   const Routes = () => {
@@ -14,6 +17,7 @@ function App() {
   };
 
   return (
+    <Provider store={store}>
     <div className="App">
       <Router>
         <Nav />
@@ -22,6 +26,8 @@ function App() {
         </Switch>
       </Router>
     </div>
+    </Provider>
+
   );
 }
 

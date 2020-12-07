@@ -2,7 +2,7 @@ import React from "react";
 // import Lazy from "../Components/Lazy/lazy";
 import Home from '../Components/Home'
 import VirtualizedList from '../Components/VirtualizedList'
-import Table from '../Components/Table'
+// import Table from '../Components/Table'
 // const Table = lazy(() => import("../Components/Table"));
 // const VirtualizedList = React.lazy(() => import("../Components/VirtualizedList"));
 
@@ -19,12 +19,12 @@ const navItems = [
     component: <VirtualizedList />,
     path: "/virtualizedList",
   },
-  {
-    url: "table",
-    name: "Table",
-    component: <Table />,
-    path: "/table",
-  },
+  // {
+  //   url: "table",
+  //   name: "Table",
+  //   component: <Table />,
+  //   path: "/table",
+  // },
   //     {
   //     url: "designer",
   //     name:'Designer',
