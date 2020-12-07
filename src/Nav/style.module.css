@@ -1,0 +1,10 @@
+#navStyle {
+    background-color: lightgray;
+}
+
+#navLinkStyle {
+    color: black;
+     border: 1px solid darkgrey;
+     border-top: 0px;
+     border-right: 0px;
+}

@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux'
-import jsonPlaceHolderReducer from './jsonPlaceHolderReducer'
+import pageData from './pageDataReducer'
 
 
 const rootReducer = combineReducers({
-    jsonPlaceHolderReducer
+  pageData
   })
   
   export default rootReducer

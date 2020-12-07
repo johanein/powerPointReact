@@ -1,0 +1,41 @@
+.divStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.headerStyle {
+display: inline-block;
+margin: 10px;
+}
+
+.spanStyle {
+    padding: 10px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.iconStyle {
+    font-size: 27px;
+}
+.iconStyleSmall {
+    font-size: 20px;
+}
+
+.bodyStyle {
+    background-color: #eee; 
+    height: 80vh;
+    width:100%;
+    overflow: auto;
+    text-align: left;
+    /* white-space: pre-wrap;  */
+}
+
+.footerStyle {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}

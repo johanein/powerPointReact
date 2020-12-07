@@ -1,29 +1,28 @@
 import React from "react";
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faEdit,faPlus,faArrowLeft} from '@fortawesome/free-solid-svg-icons'
 import "./App.css";
-import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
+import { Switch, BrowserRouter as Router } from "react-router-dom";
 import { Provider } from 'react-redux'
-import navItems from "./Nav/navItems";
 import Nav from "./Nav";
 import store from './Redux/store'
+import Routes from './routes'
 
+library.add(fab, faEdit, faPlus, faArrowLeft)
 
-function App() {
-  const Routes = () => {
-    return navItems.map(({ path, component }) => (
-      <Route exact key={path} path={path}>
-        {component}
-      </Route>
-    ));
-  };
+const App =()=> {  
 
   return (
     <Provider store={store}>
     <div className="App">
       <Router>
         <Nav />
+        <div className="mainPage">
         <Switch>
             <Routes />
         </Switch>
+        </div>
       </Router>
     </div>
     </Provider>
