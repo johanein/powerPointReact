@@ -24,6 +24,8 @@
 .editBox {
     flex:1;
     margin: 10px;
+    max-height: 80vh;
+    overflow: auto;
 }
 .footerStyle{
     display: flex;
