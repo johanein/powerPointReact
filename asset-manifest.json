@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/powerPointReact/static/css/main.e76248d0.chunk.css",
+    "main.js": "/powerPointReact/static/js/main.4533b973.chunk.js",
+    "main.js.map": "/powerPointReact/static/js/main.4533b973.chunk.js.map",
+    "runtime-main.js": "/powerPointReact/static/js/runtime-main.ee49a864.js",
+    "runtime-main.js.map": "/powerPointReact/static/js/runtime-main.ee49a864.js.map",
+    "static/css/2.b0704b7a.chunk.css": "/powerPointReact/static/css/2.b0704b7a.chunk.css",
+    "static/js/2.42ca7f64.chunk.js": "/powerPointReact/static/js/2.42ca7f64.chunk.js",
+    "static/js/2.42ca7f64.chunk.js.map": "/powerPointReact/static/js/2.42ca7f64.chunk.js.map",
+    "index.html": "/powerPointReact/index.html",
+    "precache-manifest.569930ec2e0dde01053fa7702618319b.js": "/powerPointReact/precache-manifest.569930ec2e0dde01053fa7702618319b.js",
+    "service-worker.js": "/powerPointReact/service-worker.js",
+    "static/css/2.b0704b7a.chunk.css.map": "/powerPointReact/static/css/2.b0704b7a.chunk.css.map",
+    "static/css/main.e76248d0.chunk.css.map": "/powerPointReact/static/css/main.e76248d0.chunk.css.map",
+    "static/js/2.42ca7f64.chunk.js.LICENSE.txt": "/powerPointReact/static/js/2.42ca7f64.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee49a864.js",
+    "static/css/2.b0704b7a.chunk.css",
+    "static/js/2.42ca7f64.chunk.js",
+    "static/css/main.e76248d0.chunk.css",
+    "static/js/main.4533b973.chunk.js"
+  ]
+}
